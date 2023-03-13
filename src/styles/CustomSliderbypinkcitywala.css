@@ -1,0 +1,38 @@
+.CustomSliderSlidebypinkcitywala,
+.CustomSliderbypinkcitywala {
+  background-color: #fff;
+  cursor: grab;
+}
+.CustomSliderSlidebypinkcitywala .swiper-slide {
+  max-width: 110px;
+  max-height: 110px;
+  padding: 10px;
+  background-color: #fff;
+  /* border: 1px solid #ff7d4a; */
+}
+.CustomSliderSlidebypinkcitywala .swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.CustomSliderSlidebypinkcitywala .swiper-slide img:hover {
+  filter: grayscale(0);
+  transition: 0.5s ease;
+  box-sizing: border-box;
+}
+.CustomSliderSlidebypinkcitywala .swiper-slide img {
+  filter: grayscale(100);
+}
+.CustomSliderSlidebypinkcitywala .swiper-slide-thumb-active {
+  border-width: 0px 0px 4px 0px;
+  border-image: linear-gradient(45deg, #dce35b 0%, #159957 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.CustomSliderSlidebypinkcitywala .swiper-slide-thumb-active img {
+  filter: grayscale(0);
+}
+.CustomSliderbypinkcitywala .swiper-slide {
+  display: flex;
+  justify-content: center;
+}

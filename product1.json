@@ -1,8 +1,0 @@
-{
-            id : 1,
-            name : 'iphone 13',
-            desc : 'iphone is the best in processing',
-            image : 'https://gateway.pinata.cloud/ipfs/QmUa3ipcfQi9Guu4z6vBVFWLMgfbwRUvPr5fm2ASTgSiKm?_gl=1*efquxk*_ga*MTc1NTM5ODc4OC4xNjc4MzU0MjM5*_ga_5RMPXG14TE*MTY3ODY4NzE4Mi41LjEuMTY3ODY5MTM4MS42MC4wLjA.',
-            sellerId : 1,
-            sellerName : 'Amazon'
-}

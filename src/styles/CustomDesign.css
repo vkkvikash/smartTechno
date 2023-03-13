@@ -1,0 +1,171 @@
+/*-----------------------------------Custom theme colors by shubham31011998.github.io---------------------------------*/
+/*-----------------------------------Custom theme colors by shubham31011998.github.io---------------------------------*/
+
+.themeGrad {
+  background: #159957; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dce35b,
+    #159957
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dce35b,
+    #159957
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.themeGradientText {
+  background: -webkit-linear-gradient(45deg, #dce35b, #159957);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeGradientBorder-4 {
+  border-width: 4px 4px 4px 4px;
+  border-image: linear-gradient(45deg, #dce35b 0%, #159957 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.themeGradientBorder-4-top {
+  border-width: 4px 0px 0px 0px;
+  border-image: linear-gradient(45deg, #dce35b 0%, #159957 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.themeGradientBorder-4-bottom {
+  border-width: 0px 0px 4px 0px;
+  border-image: linear-gradient(45deg, #dce35b 0%, #159957 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.themeGradientBorder-2-bottom {
+  border-width: 0px 0px 2px 0px;
+  border-image: linear-gradient(45deg, #dce35b 0%, #159957 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.themeGradientBorder-1-bottom {
+  border-width: 0px 0px 1px 0px;
+  border-image: linear-gradient(45deg, #dce35b 0%, #159957 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.themeGradientBorder-4-right {
+  border-width: 0px 4px 0px 0px;
+  border-image: linear-gradient(45deg, #dce35b 0%, #159957 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.themeGradientBorder-4-left {
+  border-width: 0px 0px 0px 4px;
+  border-image: linear-gradient(45deg, #dce35b 0%, #159957 100%);
+  border-image-slice: 9;
+  border-style: solid;
+}
+.hoverThemeGradientBg:hover {
+  background: #159957;
+  background: -webkit-linear-gradient(
+    to right,
+    #dce35b,
+    #159957
+  );
+  background: linear-gradient(
+    to right,
+    #dce35b,
+    #159957
+  ); 
+}
+.hoverThemeGradientText:hover {
+  background: #159957;
+  background: -webkit-linear-gradient(
+    to right,
+    #dce35b,
+    #159957
+  );
+  background: linear-gradient(
+    to right,
+    #dce35b,
+    #159957
+  ); 
+}
+
+/*-----------------------------------Custom theme colors by shubham31011998.github.io---------------------------------*/
+/*-----------------------------------Custom theme colors by shubham31011998.github.io---------------------------------*/
+
+.customBoxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.YoutubeIframe {
+  width: 100%;
+  min-width: 600px;
+  min-height: 338px;
+}
+.overviewCardWrap img.overviewImgSmall {
+  max-height: 350px;
+}
+.overviewCardWrap img.overviewImglarge {
+  /* width: 100%; */
+}
+.badgeCustom {
+  width: fit-content;
+  font-size: 14px;
+  padding: 2px 10px;
+  margin-bottom: 10px;
+}
+.badgeCustom svg {
+  max-width: 15px;
+}
+.starratingWrap svg {
+  fill: #ff7d4a;
+  stroke: black;
+  stroke-width: 20px;
+  padding: 0 1px;
+}
+.brandBlockHomePage .swiper-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  transform: unset!important;
+  justify-content: center;
+  align-content: center;
+}
+.reviews__bottomline__text.flex.align-center{
+  align-items: center;
+  display: inline-flex!important;
+}
+.reviewLists svg {
+  fill: gold;
+  stroke: #000;
+  stroke-width: 9px;
+  padding: 0 2px;
+  font-size: 18px;
+}
+.searchSuggestionBox {
+  position: absolute;
+  z-index: 1000000;
+  top: 70px;
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 6px;
+  /* min-width: 460px; */
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 250px;
+  overflow-y: auto;
+}
+.suggestedProd li:hover{
+  background-color: rgb(236, 235, 235);
+}
+.suggestedProd li{
+  padding: 0 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.suggestedProd li p{
+  font-size: 0.875rem;
+}
+.lightBluBg{
+  background-color: #7bc6ff;
+}
+.lightRedBg{
+  background-color: #d42902;
+}
