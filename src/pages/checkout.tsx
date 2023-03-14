@@ -3,7 +3,7 @@ import Layout from "@components/layout/layout";
 import Subscription from "@components/common/subscription";
 import PageHeader from "@components/ui/page-header";
 import CheckoutCard from "@components/checkout/checkout-card";
-
+import CheckoutForm from "@components/checkout/checkout-form";
 export default function CheckoutPage() {
 	return (
 		<>

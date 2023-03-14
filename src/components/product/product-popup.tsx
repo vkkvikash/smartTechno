@@ -18,6 +18,8 @@ export default function ProductPopup() {
 		modalData: { data },
 		closeModal,
 		openCart,
+		openModal,
+		setModalView,
 	} = useUI();
 
 	const router = useRouter();
@@ -41,6 +43,11 @@ export default function ProductPopup() {
 		)
 		: true;
 
+	function handleLogin() {
+		setModalView('LOGIN_VIEW')
+		return openModal()
+	}
+
 	function addToCart() {
 		if (!isSelected) return;
 		// to show btn feedback while product carting
@@ -55,8 +62,10 @@ export default function ProductPopup() {
 			if (isItemAdded.success) {
 				toast.success(isItemAdded.msg)
 			} else {
-				toast.error(isItemAdded.msg)
-				router.push("/signin")
+				console.log("efefefe")
+				// toast.error(isItemAdded.msg)
+				// router.push("/signin")
+				handleLogin()
 			}
 		});
 	}
